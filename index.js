@@ -21,7 +21,7 @@ app.use('/api', require("./Routes/DisplayData"));
 app.use('/api', require("./Routes/OrderData"));
 
 app.get('/', (req, res) => {
-  res.send('Hello world!');
+  res.send('Hello world!-');
 });
 
 app.listen(port, () => {
